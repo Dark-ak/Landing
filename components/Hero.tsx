@@ -7,10 +7,10 @@ import circles from "@/public/circles.png"
 
 const Hero = () => {
   return (
-    <div className='h-[80vh] relative -z-10 sections'  id='home'>
+    <div className='h-[80vh] relative sections'  id='home'>
       <div className=' flex relative justify-between mt-20  items-start w-full'>
-        <Image src={bgCol} alt='' className='absolute -z-20 -top-20' />
-        <div className='flex flex-col mt-16 -z-10'>
+        <Image src={bgCol} alt='' className='absolute -z-10-top-20' />
+        <div className='flex flex-col mt-16 z-10'>
           <p className='font-medium text-6xl'>
             Disover our App
           </p>
